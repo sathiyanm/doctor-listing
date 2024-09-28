@@ -2,8 +2,8 @@ import React from 'react';
 
 function DoctorModal({ doctor, onClose, isDarkMode }) {
   return (
-    <div className={`fixed inset-0 flex items-center justify-center bg-black bg-opacity-50`}>
-      <div className={`bg-white p-6 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 text-black ">
+      <div className="bg-white p-6 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold mb-4">{doctor.name}</h2>
         <p><strong>Specialty:</strong> {doctor.specialty}</p>
         <p><strong>Location:</strong> {doctor.location}</p>

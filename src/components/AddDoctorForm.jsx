@@ -59,7 +59,7 @@ function AddDoctorForm({ addDoctor, isDarkMode }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className={`bg-white p-6 rounded-lg shadow-lg mb-4 ${isDarkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-300'}`}>
+    <form onSubmit={handleSubmit} className={`p-6 rounded-lg shadow-lg mb-4 ${isDarkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-300'}`}>
       <h2 className="text-xl font-bold mb-4">Add New Doctor</h2>
       <div className="mb-4">
         <label className="block mb-1">Name</label>
@@ -68,7 +68,7 @@ function AddDoctorForm({ addDoctor, isDarkMode }) {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className={`w-full p-2 border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
+          className={`w-full p-2 text-black border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
         />
         {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
       </div>
@@ -79,7 +79,7 @@ function AddDoctorForm({ addDoctor, isDarkMode }) {
           name="specialty"
           value={formData.specialty}
           onChange={handleChange}
-          className={`w-full p-2 border ${errors.specialty ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
+          className={`w-full p-2 text-black border ${errors.specialty ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
         />
         {errors.specialty && <p className="text-red-500 text-sm">{errors.specialty}</p>}
       </div>
@@ -90,7 +90,7 @@ function AddDoctorForm({ addDoctor, isDarkMode }) {
           name="location"
           value={formData.location}
           onChange={handleChange}
-          className={`w-full p-2 border ${errors.location ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
+          className={`w-full p-2 text-black border ${errors.location ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
         />
         {errors.location && <p className="text-red-500 text-sm">{errors.location}</p>}
       </div>
@@ -103,7 +103,7 @@ function AddDoctorForm({ addDoctor, isDarkMode }) {
           onChange={handleChange}
           min="1"
           max="5"
-          className={`w-full p-2 border ${errors.rating ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
+          className={`w-full p-2 text-black border ${errors.rating ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
         />
         {errors.rating && <p className="text-red-500 text-sm">{errors.rating}</p>}
       </div>
@@ -114,7 +114,7 @@ function AddDoctorForm({ addDoctor, isDarkMode }) {
           name="phone"
           value={formData.phone}
           onChange={handleChange}
-          className={`w-full p-2 border ${errors.phone ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
+          className={`w-full p-2  text-black border ${errors.phone ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
         />
         {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
       </div>
@@ -125,7 +125,7 @@ function AddDoctorForm({ addDoctor, isDarkMode }) {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className={`w-full p-2 border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
+          className={`w-full p-2 text-black border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-lg`}
         />
         {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
       </div>
