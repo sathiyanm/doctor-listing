@@ -1,0 +1,137 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "specialty": "Cardiology",
+      "location": "New York, NY",
+      "rating": 4.8,
+      "phone": "(123) 456-7890",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Jane Smith",
+      "specialty": "Dermatology",
+      "location": "Los Angeles, CA",
+      "rating": 4.7,
+      "phone": "(987) 654-3210",
+      "email": "janesmith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Johnson",
+      "specialty": "Pediatrics",
+      "location": "Chicago, IL",
+      "rating": 4.5,
+      "phone": "(555) 123-4567",
+      "email": "emilyjohnson@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Michael Brown",
+      "specialty": "Orthopedics",
+      "location": "Houston, TX",
+      "rating": 4.6,
+      "phone": "(444) 987-6543",
+      "email": "michaelbrown@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Sarah Davis",
+      "specialty": "Neurology",
+      "location": "Phoenix, AZ",
+      "rating": 4.9,
+      "phone": "(333) 765-4321",
+      "email": "sarahdavis@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Dr. William Martinez",
+      "specialty": "Gastroenterology",
+      "location": "San Diego, CA",
+      "rating": 4.4,
+      "phone": "(222) 876-5432",
+      "email": "williammartinez@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Linda Wilson",
+      "specialty": "Oncology",
+      "location": "Philadelphia, PA",
+      "rating": 4.7,
+      "phone": "(111) 987-1234",
+      "email": "lindawilson@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Dr. James Taylor",
+      "specialty": "Cardiology",
+      "location": "Dallas, TX",
+      "rating": 4.8,
+      "phone": "(321) 654-9870",
+      "email": "jamestaylor@example.com"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Barbara Miller",
+      "specialty": "Dermatology",
+      "location": "San Francisco, CA",
+      "rating": 4.6,
+      "phone": "(654) 321-0987",
+      "email": "barbaramiller@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Thomas Anderson",
+      "specialty": "Radiology",
+      "location": "Seattle, WA",
+      "rating": 4.5,
+      "phone": "(789) 456-1230",
+      "email": "thomasanderson@example.com"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Patricia Harris",
+      "specialty": "Endocrinology",
+      "location": "Boston, MA",
+      "rating": 4.7,
+      "phone": "(567) 890-1234",
+      "email": "patriciaharris@example.com"
+    },
+    {
+      "id": 12,
+      "name": "Dr. David Clark",
+      "specialty": "Psychiatry",
+      "location": "Denver, CO",
+      "rating": 4.9,
+      "phone": "(890) 123-4567",
+      "email": "davidclark@example.com"
+    },
+    {
+      "id": 13,
+      "name": "Dr. Elizabeth Lee",
+      "specialty": "Rheumatology",
+      "location": "Miami, FL",
+      "rating": 4.6,
+      "phone": "(123) 890-5678",
+      "email": "elizabethlee@example.com"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Christopher Walker",
+      "specialty": "Ophthalmology",
+      "location": "Las Vegas, NV",
+      "rating": 4.8,
+      "phone": "(567) 321-6543",
+      "email": "christopherwalker@example.com"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Susan Young",
+      "specialty": "Gynecology",
+      "location": "Atlanta, GA",
+      "rating": 4.7,
+      "phone": "(789) 123-0987",
+      "email": "susanyoung@example.com"
+    }
+  ]
